@@ -2,7 +2,7 @@
 
 A secure and user-friendly online voting platform built with Python Flask, Pandas, HTML, and CSS.
 
-![Project Homepage](![voting_homepage](https://github.com/user-attachments/assets/d5d079b5-2d95-4f77-b428-61e23362e124))
+![Project Homepage](https://github.com/fatmazahid/Online-Voting-System/blob/main/voting_homepage.png?raw=true)
 
 ## 🔗 Live Demo
 [Click here to try the live app](https://891c816b-7652-4ee0-98d9-c864fc90392e-00-2uik97z5370nc.pike.replit.dev)
