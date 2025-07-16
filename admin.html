@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard | eVoting</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <div class="header">eVoting | Admin Dashboard</div>
+
+  <div class="admin-box">
+    <h2>🛠️ Admin Panel</h2>
+
+    <div class="admin-summary">
+      <p>Total Registered Users: <strong>{{ total }}</strong></p>
+      <p>Users Who Voted: <strong>{{ voted }}</strong></p>
+      <p>Users Yet to Vote: <strong>{{ not_voted }}</strong></p>
+    </div>
+
+    <h3>📊 Live Vote Count</h3>
+    <table class="results-table">
+      <tr>
+        <th>Candidate</th>
+        <th>Votes</th>
+      </tr>
+      {% for c in candidates %}
+      <tr>
+        <td>{{ c.name }}</td>
+        <td>{{ c.votes }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+
+    <a class="back-link" href="/">← Logout to Home</a>
+  </div>
+
+</body>
+</html>

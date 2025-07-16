@@ -1,0 +1,306 @@
+/* ===== Global Styles ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e6f0ff, #ffffff);
+  color: #2c3e50;
+  text-align: center;
+}
+
+.header {
+  background-color: #0d47a1;
+  color: white;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.back-link {
+  display: block;
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #2980b9;
+}
+
+/* ===== Home Page Buttons (index.html) ===== */
+.container {
+  margin: 60px auto;
+  width: 350px;
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.container h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #0d47a1;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  background-color: #0d47a1;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #08306b;
+  transform: scale(1.02);
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* ===== Login Form Design (login.html) ===== */
+.form-box.login {
+  width: 360px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-box.login h2 {
+  color: #0d47a1;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.form-box.login input[type="text"],
+.form-box.login input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.form-box.login input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #0d47a1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.form-box.login input[type="submit"]:hover {
+  background-color: #08306b;
+}
+
+/* ===== Registration Form Design (register.html) ===== */
+.form-box.register {
+  width: 360px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-box.register h2 {
+  color: #0d47a1;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.form-box.register input[type="text"],
+.form-box.register input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.form-box.register input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.form-box.register input[type="submit"]:hover {
+  background-color: #1b5e20;
+}
+
+/* ===== Voting Page Design (vote.html) ===== */
+.form-box.vote {
+  width: 420px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-box.vote h2 {
+  color: #0d47a1;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.vote-option {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.vote-option input[type="radio"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+.form-box.vote input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #8e44ad;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.form-box.vote input[type="submit"]:hover {
+  background-color: #6c3483;
+}
+
+/* ===== Results Page Design (result.html) ===== */
+.results-box {
+  width: 500px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.results-box h2 {
+  color: #0d47a1;
+  margin-bottom: 25px;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.results-table th,
+.results-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.results-table th {
+  background-color: #f0f0f0;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.results-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* ===== Admin Dashboard (admin.html) ===== */
+.admin-box {
+  width: 520px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.admin-box h2 {
+  color: #0d47a1;
+  margin-bottom: 20px;
+}
+
+.admin-summary {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.admin-summary p {
+  margin: 10px 0;
+  color: #2c3e50;
+}
+
+/* ===== Thank You Page (thank_you.html) ===== */
+.thankyou-box {
+  width: 420px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.thankyou-box h2 {
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+.thankyou-box p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #444;
+}

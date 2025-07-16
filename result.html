@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Results | eVoting</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <div class="header">eVoting | Digital Bharat</div>
+
+  <div class="results-box">
+    <h2>📊 Live Voting Results</h2>
+    <table class="results-table">
+      <tr>
+        <th>Candidate</th>
+        <th>Total Votes</th>
+      </tr>
+      {% for c in candidates %}
+      <tr>
+        <td>{{ c.name }}</td>
+        <td>{{ c.votes }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    <a class="back-link" href="/">← Back to Home</a>
+  </div>
+
+</body>
+</html>
